@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "psh": "git add -A && git commit -m 'saved by pnpm' && git push"
   },
   "dependencies": {
     "@floating-ui/dom": "^1.6.13",
