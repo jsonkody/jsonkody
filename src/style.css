@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Roboto Mono";
+  src: url("@/assets/fonts/roboto_mono.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: oblique 0deg 10deg;
+  font-display: swap;
+}
+
+:root {
+  @apply bg-neutral-950 flex items-center justify-center h-screen;
+}
+
+@utility roboto-mono {
+  font-family: "Roboto Mono", monospace;
+}
+
+@utility rd {
+  border: 1px solid red;
+}
+
+@utility trans {
+  @apply transition duration-500 ease-in-out;
+}
+
+@utility main-links-wrap {
+  @apply flex;
+}
+
+@utility main-link {
+  @apply w-12 h-24 cursor-pointer flex items-center justify-center;
+}
+
+@utility link-ball {
+  @apply w-2 h-2 trans opacity-30 group-hover:opacity-100 group-hover:brightness-150 bg-gradient-to-br from-teal-400 to-indigo-600 group-hover:scale-150 inline-block rounded-full;
+}
