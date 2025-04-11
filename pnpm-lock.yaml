@@ -17,6 +17,9 @@ importers:
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.3)
+      vue-pop-directive:
+        specifier: ^1.0.2
+        version: 1.0.2(vue@3.5.13(typescript@5.7.3))
     devDependencies:
       '@tailwindcss/vite':
         specifier: ^4.0.17
@@ -1228,6 +1231,11 @@ packages:
       '@vue/composition-api':
         optional: true
 
+  vue-pop-directive@1.0.2:
+    resolution: {integrity: sha512-X3rc1DU7MXCkB4e/W7o1MeKGY+KSIvx3ny5DyRFydx+9KQQCImm0BGspFcHTeWcqpxSNP9mafglhmFP6sidKBw==}
+    peerDependencies:
+      vue: ^3.0.0
+
   vue-tsc@2.2.8:
     resolution: {integrity: sha512-jBYKBNFADTN+L+MdesNX/TB3XuDSyaWynKMDgR+yCSln0GQ9Tfb7JS2lr46s2LiFUT1WsmfWsSvIElyxzOPqcQ==}
     hasBin: true
@@ -2345,6 +2353,11 @@ snapshots:
 
   vue-demi@0.14.10(vue@3.5.13(typescript@5.7.3)):
     dependencies:
+      vue: 3.5.13(typescript@5.7.3)
+
+  vue-pop-directive@1.0.2(vue@3.5.13(typescript@5.7.3)):
+    dependencies:
+      '@floating-ui/dom': 1.6.13
       vue: 3.5.13(typescript@5.7.3)
 
   vue-tsc@2.2.8(typescript@5.7.3):

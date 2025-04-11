@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import { pop } from "./directives/Pop";
+import { pop } from "vue-pop-directive";
 import "./style.css";
 import App from "./App.vue";
 
