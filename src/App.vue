@@ -1,17 +1,16 @@
 <script setup lang="ts">
-const jk = `<img src="/public/images/jk.svg" class="rounded-full">`;
-const bekinka = `<img src="/public/images/bekinka.avif" class="rounded-full">`;
-const num = `<img src="/public/images/num.avif" class="rounded-full">`;
-const github = `<img src="/public/images/github.avif" class="rounded-full">`;
-const discord = `<img src="/public/images/discord.avif" class="rounded-xl">`;
-const twitch = `<img src="/public/images/twitch.avif" class="rounded-full">`;
-const youtube = `<img src="/public/images/youtube.avif" class="rounded-full">`;
+const jk = `<img src="/images/jk.svg" class="rounded-full">`;
+const bekinka = `<img src="/images/bekinka.avif" class="rounded-full">`;
+const num = `<img src="/images/num.avif" class="rounded-full">`;
+const github = `<img src="/images/github.avif" class="rounded-full">`;
+const discord = `<img src="/images/discord.avif" class="rounded-xl">`;
+const twitch = `<img src="/images/twitch.avif" class="rounded-full">`;
+const youtube = `<img src="/images/jk.svg" class="rounded-full">`;
 </script>
 
 <template>
   <div class="">
     <h1
-      v-pop.html="jk"
       class="p-4 trans text-6xl roboto-mono text-transparent bg-clip-text hover:brightness-150 bg-gradient-to-r from-fuchsia-600 to-teal-300"
     >
       <a href="https://www.youtube.com/jsonkody"> {jk} </a>
