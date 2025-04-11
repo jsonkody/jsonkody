@@ -30,7 +30,7 @@
 }
 
 @utility main-links-wrap {
-  @apply flex;
+  @apply flex items-center justify-center flex-wrap;
 }
 
 @utility main-link {
