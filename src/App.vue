@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const jk = `<img src="/images/jk.svg" class="rounded-full">`;
+// const jk = `<img src="/images/jk.svg" class="rounded-full">`;
 const bekinka = `<img src="/images/bekinka.avif" class="rounded-full">`;
 const num = `<img src="/images/num.avif" class="rounded-full">`;
 const github = `<img src="/images/github.avif" class="rounded-full">`;
