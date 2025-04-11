@@ -1,9 +1,17 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+const jk = `<img src="/public/images/jk.svg" class="rounded-full">`;
+const bekinka = `<img src="/public/images/bekinka.avif" class="rounded-full">`;
+const num = `<img src="/public/images/num.avif" class="rounded-full">`;
+const github = `<img src="/public/images/github.avif" class="rounded-full">`;
+const discord = `<img src="/public/images/discord.avif" class="rounded-xl">`;
+const twitch = `<img src="/public/images/twitch.avif" class="rounded-full">`;
+const youtube = `<img src="/public/images/youtube.avif" class="rounded-full">`;
+</script>
 
 <template>
   <div class="">
     <h1
-      v-pop="'JsonKody'"
+      v-pop.html="jk"
       class="p-4 trans text-6xl roboto-mono text-transparent bg-clip-text hover:brightness-150 bg-gradient-to-r from-fuchsia-600 to-teal-300"
     >
       <a href="https://www.youtube.com/jsonkody"> {jk} </a>
@@ -12,52 +20,58 @@
     <div class="w-full absolute top-0 right-0 flex justify-center">
       <div class="main-links-wrap">
         <a
-          class="main-link group"
+          class="main-link text-purple-400 hover:text-pink-300"
           href="https://bekinka.cz"
           target="_blank"
-          v-pop="'Bekinka'"
+          v-pop.html="bekinka"
         >
-          <div class="link-ball"></div>
+          bekinka.cz
+          <!-- <div class="link-ball"></div> -->
         </a>
         <a
-          class="main-link group"
+          class="main-link text-emerald-300 hover:text-green-100"
           href="https://num.jsonkody.cz"
           target="_blank"
-          v-pop="'Num'"
+          v-pop.html="num"
         >
-          <div class="link-ball"></div>
+          num
+          <!-- <div class="link-ball"></div> -->
         </a>
         <a
-          class="main-link group"
+          class="main-link text-gray-400 hover:text-gray-100"
           href="https://github.com/JsonKody"
           target="_blank"
-          v-pop="'Github'"
+          v-pop.html="github"
         >
-          <div class="link-ball"></div>
+          github
+          <!-- <div class="link-ball"></div> -->
         </a>
         <a
-          class="main-link group"
+          class="main-link text-blue-400 hover:text-pink-300"
           href="https://discord.gg/djVwV5FT"
           target="_blank"
-          v-pop="'Discord'"
+          v-pop.html="discord"
         >
-          <div class="link-ball"></div>
+          discord
+          <!-- <div class="link-ball"></div> -->
         </a>
         <a
-          class="main-link group"
+          class="main-link text-purple-400 hover:text-pink-300"
           href="https://www.twitch.tv/jsonkody"
           target="_blank"
-          v-pop="'Twitch'"
+          v-pop.html="twitch"
         >
-          <div class="link-ball"></div>
+          twitch
+          <!-- <div class="link-ball"></div> -->
         </a>
         <a
-          class="main-link group"
+          class="main-link text-red-400 hover:text-pink-300"
           href="https://www.youtube.com/jsonkody"
           target="_blank"
-          v-pop="'Youtube'"
+          v-pop.html="youtube"
         >
-          <div class="link-ball"></div>
+          youtube
+          <!-- <div class="link-ball"></div> -->
         </a>
       </div>
     </div>
