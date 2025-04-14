@@ -8,15 +8,9 @@ importers:
 
   .:
     dependencies:
-      '@floating-ui/dom':
-        specifier: ^1.6.13
-        version: 1.6.13
-      '@floating-ui/vue':
-        specifier: ^1.1.6
-        version: 1.1.6(vue@3.5.13(typescript@5.7.3))
       toolpop:
-        specifier: ^1.0.0
-        version: 1.0.0(vue@3.5.13(typescript@5.7.3))
+        specifier: ^0.2.0
+        version: 0.2.1(vue@3.5.13(typescript@5.7.3))
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.7.3)
@@ -358,9 +352,6 @@ packages:
 
   '@floating-ui/utils@0.2.9':
     resolution: {integrity: sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg==}
-
-  '@floating-ui/vue@1.1.6':
-    resolution: {integrity: sha512-XFlUzGHGv12zbgHNk5FN2mUB7ROul3oG2ENdTpWdE+qMFxyNxWSRmsoyhiEnpmabNm6WnUvR1OvJfUfN4ojC1A==}
 
   '@jridgewell/gen-mapping@0.3.8':
     resolution: {integrity: sha512-imAbBGkb+ebQyxKgzv5Hu2nmROxoDOXHh80evxdoXNOrvAnVx7zimzc1Oo5h9RlfV4vPXaE2iM5pOFbvOCClWA==}
@@ -1120,8 +1111,8 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  toolpop@1.0.0:
-    resolution: {integrity: sha512-h+KSkBNTLkBA815RI2EwFR4NjwB6/sxAkrCk0dwdfRL+RP9SOlt2j83jPB/6hyfpI1WY+R5GuP1c+qv/tyyaZA==}
+  toolpop@0.2.1:
+    resolution: {integrity: sha512-71PsPYBAwDxtJlEs7BZSGHhIzFwNjo55+wZHrli44//e3cFoH8qzR+zEXRWEwqrq6FM8IAHwV5yOMFZnOw1jpg==}
     peerDependencies:
       vue: ^3.0.0
 
@@ -1224,17 +1215,6 @@ packages:
 
   vscode-uri@3.1.0:
     resolution: {integrity: sha512-/BpdSx+yCQGnCvecbyXdxHDkuk55/G3xwnC0GqY4gmQ3j+A+g8kzzgB4Nk/SINjqn6+waqw3EgbVF2QKExkRxQ==}
-
-  vue-demi@0.14.10:
-    resolution: {integrity: sha512-nMZBOwuzabUO0nLgIcc6rycZEebF6eeUfaiQx9+WSk8e29IbLvPU9feI6tqW4kTo3hvoYAJkMh8n8D0fuISphg==}
-    engines: {node: '>=12'}
-    hasBin: true
-    peerDependencies:
-      '@vue/composition-api': ^1.0.0-rc.1
-      vue: ^3.0.0-0 || ^2.6.0
-    peerDependenciesMeta:
-      '@vue/composition-api':
-        optional: true
 
   vue-tsc@2.2.8:
     resolution: {integrity: sha512-jBYKBNFADTN+L+MdesNX/TB3XuDSyaWynKMDgR+yCSln0GQ9Tfb7JS2lr46s2LiFUT1WsmfWsSvIElyxzOPqcQ==}
@@ -1545,15 +1525,6 @@ snapshots:
       '@floating-ui/utils': 0.2.9
 
   '@floating-ui/utils@0.2.9': {}
-
-  '@floating-ui/vue@1.1.6(vue@3.5.13(typescript@5.7.3))':
-    dependencies:
-      '@floating-ui/dom': 1.6.13
-      '@floating-ui/utils': 0.2.9
-      vue-demi: 0.14.10(vue@3.5.13(typescript@5.7.3))
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-      - vue
 
   '@jridgewell/gen-mapping@0.3.8':
     dependencies:
@@ -2261,7 +2232,7 @@ snapshots:
       commander: 2.20.3
       source-map-support: 0.5.21
 
-  toolpop@1.0.0(vue@3.5.13(typescript@5.7.3)):
+  toolpop@0.2.1(vue@3.5.13(typescript@5.7.3)):
     dependencies:
       '@floating-ui/dom': 1.6.13
       vue: 3.5.13(typescript@5.7.3)
@@ -2355,10 +2326,6 @@ snapshots:
       terser: 5.39.0
 
   vscode-uri@3.1.0: {}
-
-  vue-demi@0.14.10(vue@3.5.13(typescript@5.7.3)):
-    dependencies:
-      vue: 3.5.13(typescript@5.7.3)
 
   vue-tsc@2.2.8(typescript@5.7.3):
     dependencies:
