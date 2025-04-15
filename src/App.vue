@@ -2,6 +2,7 @@
 // const jk = `<img src="/images/jk.svg" class="rounded-full">`;
 const bekinka = `<img src="/images/bekinka.avif" class="rounded-full">`;
 const num = `<img src="/images/num.avif" class="rounded-full">`;
+const npm = `<img src="/images/npm.avif" class="rounded-full">`;
 const github = `<img src="/images/github.avif" class="rounded-full">`;
 const discord = `<img src="/images/discord.avif" class="rounded-xl">`;
 const twitch = `<img src="/images/twitch.avif" class="rounded-full">`;
@@ -35,6 +36,15 @@ const youtube = `<img src="/images/jk.svg" width="120" height="120" class="round
           v-pop.html="num"
         >
           num
+          <!-- <div class="link-ball"></div> -->
+        </a> 
+        <a
+          class="main-link text-white hover:text-blue-300"
+          href="https://www.npmjs.com/package/toolpop"
+          target="_blank"
+          v-pop.html="npm"
+        >
+          toolpop
           <!-- <div class="link-ball"></div> -->
         </a>
         <a
