@@ -5,7 +5,7 @@ const num = `<img src="/images/num.avif" class="rounded-full">`;
 const npm = `<img src="/images/npm.avif" class="rounded-full">`;
 const snejk = `<img src="/images/snejk.avif" class="rounded-full">`;
 const github = `<img src="/images/github.avif" class="rounded-full">`;
-const discord = `<img src="/images/discord.avif" class="rounded-xl">`;
+const discord = `<img src="/images/discord.avif" class="rounded-full">`;
 const twitch = `<img src="/images/twitch.avif" class="rounded-full">`;
 const youtube = `<img src="/images/jk.svg" width="120" height="120" class="rounded-full">`;
 </script>
