@@ -3,6 +3,7 @@
 const bekinka = `<img src="/images/bekinka.avif" class="rounded-full">`;
 const num = `<img src="/images/num.avif" class="rounded-full">`;
 const npm = `<img src="/images/npm.avif" class="rounded-full">`;
+const snejk = `<img src="/images/snejk.avif" class="rounded-full">`;
 const github = `<img src="/images/github.avif" class="rounded-full">`;
 const discord = `<img src="/images/discord.avif" class="rounded-xl">`;
 const twitch = `<img src="/images/twitch.avif" class="rounded-full">`;
@@ -27,7 +28,6 @@ const youtube = `<img src="/images/jk.svg" width="120" height="120" class="round
           v-pop.html="bekinka"
         >
           bekinka.cz
-          <!-- <div class="link-ball"></div> -->
         </a>
         <a
           class="main-link text-emerald-300 hover:text-green-100"
@@ -36,8 +36,15 @@ const youtube = `<img src="/images/jk.svg" width="120" height="120" class="round
           v-pop.html="num"
         >
           num
-          <!-- <div class="link-ball"></div> -->
         </a> 
+        <a
+          class="main-link text-pink-500 hover:text-pink-300"
+          href="https://snejk.bekinka.cz"
+          target="_blank"
+          v-pop.html="snejk"
+        >
+          snejk
+        </a>
         <a
           class="main-link text-white hover:text-blue-300"
           href="https://www.npmjs.com/package/toolpop"
@@ -45,7 +52,6 @@ const youtube = `<img src="/images/jk.svg" width="120" height="120" class="round
           v-pop.html="npm"
         >
           toolpop
-          <!-- <div class="link-ball"></div> -->
         </a>
         <a
           class="main-link text-gray-400 hover:text-gray-100"
@@ -54,7 +60,6 @@ const youtube = `<img src="/images/jk.svg" width="120" height="120" class="round
           v-pop.html="github"
         >
           github
-          <!-- <div class="link-ball"></div> -->
         </a>
         <a
           class="main-link text-blue-400 hover:text-pink-300"
@@ -63,7 +68,6 @@ const youtube = `<img src="/images/jk.svg" width="120" height="120" class="round
           v-pop.html="discord"
         >
           discord
-          <!-- <div class="link-ball"></div> -->
         </a>
         <a
           class="main-link text-purple-400 hover:text-pink-300"
@@ -72,7 +76,6 @@ const youtube = `<img src="/images/jk.svg" width="120" height="120" class="round
           v-pop.html="twitch"
         >
           twitch
-          <!-- <div class="link-ball"></div> -->
         </a>
         <a
           class="main-link text-red-400 hover:text-pink-300"
@@ -81,7 +84,6 @@ const youtube = `<img src="/images/jk.svg" width="120" height="120" class="round
           v-pop.html="youtube"
         >
           youtube
-          <!-- <div class="link-ball"></div> -->
         </a>
       </div>
     </div>
