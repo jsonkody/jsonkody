@@ -55,7 +55,7 @@ const youtube = `<img src="/images/jk.svg" width="120" height="120" class="round
         </a>
         <a
           class="main-link text-gray-400 hover:text-gray-100"
-          href="https://github.com/JsonKody"
+          href="https://github.com/jsonkody"
           target="_blank"
           v-pop.html="github"
         >
