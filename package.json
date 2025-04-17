@@ -10,20 +10,20 @@
     "psh": "git add -A && git commit -m 'saved by pnpm' && git push"
   },
   "dependencies": {
-    "toolpop": "^0.2.6",
+    "toolpop": "^0.2.9",
     "vue": "^3.5.13"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.0.17",
-    "@types/node": "^22.13.14",
-    "@vitejs/plugin-vue": "^5.2.1",
+    "@tailwindcss/vite": "^4.1.4",
+    "@types/node": "^22.14.1",
+    "@vitejs/plugin-vue": "^5.2.3",
     "@vue/tsconfig": "^0.7.0",
-    "tailwindcss": "^4.0.17",
+    "tailwindcss": "^4.1.4",
     "terser": "^5.39.0",
-    "typescript": "~5.7.2",
-    "vite": "^6.2.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.1",
     "vite-plugin-compression": "^0.5.1",
-    "vite-plugin-vue-devtools": "^7.7.2",
-    "vue-tsc": "^2.2.4"
+    "vite-plugin-vue-devtools": "^7.7.5",
+    "vue-tsc": "^2.2.8"
   }
 }
