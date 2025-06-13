@@ -14,7 +14,7 @@ const youtube = `<img src="/images/jk.avif" width="120" height="120" class="roun
   <div class="">
     <h1
       v-pop:bottom="'YouTube'"
-      class="p-4 trans text-6xl roboto-mono text-transparent bg-clip-text hover:brightness-150 bg-gradient-to-r from-fuchsia-600 to-teal-300"
+      class="p-4 trans text-7xl roboto-mono text-transparent bg-clip-text hover:brightness-150 bg-gradient-to-r from-25% from-purple-700 to-teal-200"
     >
       <a href="https://www.youtube.com/jsonkody"> {jk} </a>
     </h1>
