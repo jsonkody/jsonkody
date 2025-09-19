@@ -1,9 +1,9 @@
 import { createApp } from "vue";
-import { pop } from "toolpop";
+import Toolpop from "toolpop";
 import "./style.css";
 import App from "./App.vue";
 
 const app = createApp(App);
-app.directive("pop", pop);
+app.use(Toolpop);
 
 app.mount("#app");
