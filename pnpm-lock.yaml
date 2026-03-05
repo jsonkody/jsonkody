@@ -8,9 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@floating-ui/dom':
+        specifier: ^1.7.6
+        version: 1.7.6
       toolpop:
-        specifier: ^0.4.7
-        version: 0.4.7(vue@3.5.29(typescript@5.9.3))
+        specifier: ^0.4.8
+        version: 0.4.8(vue@3.5.29(typescript@5.9.3))
       vue:
         specifier: ^3.5.29
         version: 3.5.29(typescript@5.9.3)
@@ -986,8 +989,8 @@ packages:
     resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
     engines: {node: '>=12.0.0'}
 
-  toolpop@0.4.7:
-    resolution: {integrity: sha512-20RqoICs6cWzcvf/LI5KSjBnSxz6mQcqQ+LyRY/8wTXSxhQRiamkNGsSKSASBia7NUaPnzeyLTXhguehl93dvA==}
+  toolpop@0.4.8:
+    resolution: {integrity: sha512-GI3eljCoci9shL9aTWlMUM4+4ydmz4s/MOVsxuBQ4KgbuMuPKd+Sgp6OAMEIMdArXFqZAUJU/YOP453OP4ozuA==}
     peerDependencies:
       vue: ^3.0.0
 
@@ -1980,7 +1983,7 @@ snapshots:
       fdir: 6.5.0(picomatch@4.0.3)
       picomatch: 4.0.3
 
-  toolpop@0.4.7(vue@3.5.29(typescript@5.9.3)):
+  toolpop@0.4.8(vue@3.5.29(typescript@5.9.3)):
     dependencies:
       '@floating-ui/dom': 1.7.6
       vue: 3.5.29(typescript@5.9.3)
