@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       toolpop:
-        specifier: 0.4.6
-        version: 0.4.6(vue@3.5.29(typescript@5.9.3))
+        specifier: ^0.4.7
+        version: 0.4.7(vue@3.5.29(typescript@5.9.3))
       vue:
         specifier: ^3.5.29
         version: 3.5.29(typescript@5.9.3)
@@ -34,7 +34,7 @@ importers:
         specifier: ~5.9.3
         version: 5.9.3
       vite:
-        specifier: ^8.0.0-beta.0
+        specifier: 8.0.0-beta.16
         version: 8.0.0-beta.16(@types/node@25.3.3)(esbuild@0.27.3)(jiti@2.6.1)(terser@5.46.0)
       vite-plugin-vue-devtools:
         specifier: ^8.0.7
@@ -986,8 +986,8 @@ packages:
     resolution: {integrity: sha512-j2Zq4NyQYG5XMST4cbs02Ak8iJUdxRM0XI5QyxXuZOzKOINmWurp3smXu3y5wDcJrptwpSjgXHzIQxR0omXljQ==}
     engines: {node: '>=12.0.0'}
 
-  toolpop@0.4.6:
-    resolution: {integrity: sha512-ieneaodxF5iz0STHH5SE2+X+S7Hp/8V5hhSorYJBF7h2hck1QkBf8M+mrVL3AsY1co9z8s6Bg+2gwp1jRa6Vag==}
+  toolpop@0.4.7:
+    resolution: {integrity: sha512-20RqoICs6cWzcvf/LI5KSjBnSxz6mQcqQ+LyRY/8wTXSxhQRiamkNGsSKSASBia7NUaPnzeyLTXhguehl93dvA==}
     peerDependencies:
       vue: ^3.0.0
 
@@ -1980,7 +1980,7 @@ snapshots:
       fdir: 6.5.0(picomatch@4.0.3)
       picomatch: 4.0.3
 
-  toolpop@0.4.6(vue@3.5.29(typescript@5.9.3)):
+  toolpop@0.4.7(vue@3.5.29(typescript@5.9.3)):
     dependencies:
       '@floating-ui/dom': 1.7.6
       vue: 3.5.29(typescript@5.9.3)
