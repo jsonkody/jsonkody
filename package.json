@@ -11,12 +11,12 @@
   },
   "dependencies": {
     "@floating-ui/dom": "^1.7.6",
-    "toolpop": "^0.4.8",
-    "vue": "^3.5.29"
+    "toolpop": "^0.4.9",
+    "vue": "^3.5.30"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.2.1",
-    "@types/node": "^25.3.3",
+    "@types/node": "^25.3.5",
     "@vitejs/plugin-vue": "^6.0.4",
     "@vue/tsconfig": "^0.9.0",
     "tailwindcss": "^4.2.1",
