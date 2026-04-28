@@ -4,6 +4,7 @@ const bekinka = `<img src="/images/bekinka.avif" class="rounded-full">`;
 const num = `<img src="/images/num.avif" class="rounded-full">`;
 const toolpop = `<img src="/images/toolpop.avif" class="rounded-full">`;
 const snejk = `<img src="/images/snejk.avif" class="rounded-full">`;
+const panteri = `<img src="/images/panteri.avif" class="rounded-full">`;
 const github = `<img src="/images/github.avif" class="rounded-full">`;
 const discord = `<img src="/images/discord.avif" class="rounded-full">`;
 const twitch = `<img src="/images/twitch.avif" class="rounded-full">`;
@@ -44,6 +45,14 @@ const youtube = `<img src="/images/jk.avif" width="120" height="120" class="roun
           v-pop.html="snejk"
         >
           snejk
+        </a>
+        <a
+          class="main-link text-sky-400 hover:text-yellow-300"
+          href="https://panteri.jsonkody.cz"
+          target="_blank"
+          v-pop.html="panteri"
+        >
+          panteri
         </a>
         <a
           class="main-link text-white hover:text-blue-300"
